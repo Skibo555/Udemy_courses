@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgrounds and Borders</title>
+
+    <style>
+        #box-1 {
+            background-color: blanchedalmond;
+            /* One method to put border. */
+            border-width: 3px;
+            border-color: red;
+            border-style: solid;
+            /* Another method to put the border, but the most preferred one */
+            border: 3px solid red;
+            /* One of the two is fine, we don't need to put the two. */
+            border-radius: 10px;
+        }
+
+        #box-2 {
+            background: black;
+            color: #fff;
+            border-top: blue solid;
+            border-top-left-radius: 10px;
+        }
+
+        #box-3 {
+            background-image: url('/Udemy_courses/htmlsandbox/img/Screen\ Shot\ 2023-11-18\ at\ 7.18.32\ PM.png');
+            color: yellowgreen;
+            background-size: cover;
+        }
+
+        #box-4 {
+            background: url('/Udemy_courses/htmlsandbox/img/Screen\ Shot\ 2023-11-18\ at\ 7.18.32\ PM.png') no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box-1">
+        <h3>Box One</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo voluptatibus quia dicta facilis. Amet eius
+            culpa repudiandae omnis dolorum aliquid!</p>
+    </div> <br>
+    <div id="box-2">
+        <h3>Box two</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo voluptatibus quia dicta facilis. Amet eius
+            culpa repudiandae omnis dolorum aliquid!</p>
+    </div>
+    <div id="box-3">
+        <h3>Box Three</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo voluptatibus quia dicta facilis. Amet eius
+            culpa repudiandae omnis dolorum aliquid!</p>
+    </div>
+    <div id="box-4">
+        <h3>Box Four</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo voluptatibus quia dicta facilis. Amet eius
+            culpa repudiandae omnis dolorum aliquid!</p>
+    </div>
+</body>
+
+</html>

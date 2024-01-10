@@ -1,0 +1,1 @@
+This website is a static hotel webpage. It sums up the things I've learnt so far in HTML/CSS and those are the technologies used here.
