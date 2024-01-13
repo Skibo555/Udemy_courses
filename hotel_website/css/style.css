@@ -232,3 +232,78 @@ button#enjoy-btn.btn {
     text-align: center;
     max-width: 100%;
 }
+
+#about {
+    padding-top: 20px;
+    display: inline-block;
+}
+
+#about img {
+    display: inline;
+    float: right;
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50px;
+    border-radius: 600px;
+}
+
+#about #about-info {
+    padding: 20px;
+    display: inline;
+    float: left;
+    width: 50%;
+}
+
+.image-section {
+    background-image: url('../img/test-bg.jpg');
+}
+
+.image-section .testimonials {
+    display: block;
+}
+
+#first-div {
+    border-radius: 10px;
+    margin: 30px;
+    opacity: 0.8;
+}
+
+#first-div img {
+    padding: 20px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+#first-div p {
+    display: inline-block;
+    margin: 0px 20px 20px;
+    text-align: justify;
+}
+
+#second-div {
+    border-radius: 10px;
+    margin: 30px;
+    opacity: 0.8;
+    margin: 30px;
+}
+
+#second-div img {
+    border-radius: 100%;
+    padding: 20px;
+    width: 150px;
+}
+
+#second-div p {
+    display: inline-block;
+    margin: 20px;
+    margin: 0px 20px 20px;
+    text-align: justify;
+}
+
+.testimonials {
+    font-size: 40px;
+    color: #fff;
+    padding: 70px;
+    text-align: center;
+}
